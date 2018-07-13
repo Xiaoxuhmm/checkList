@@ -1,0 +1,86 @@
+body {
+	width: 450px;
+	height: 700px;
+}
+
+.display-inline{
+	display: inline;
+}
+
+.task-wrapper {
+	margin: 20px 50px 0px 0px;
+}
+
+.head-wrapper{
+	position: relative;
+	width: 400px;
+}
+
+.head {
+	font-family: "Segoe UI", Tahoma, sans-serif;
+	width: 300px;
+	color: #00b33c;
+}
+
+.task-manage-button {
+	font-size: 25px;
+	width: 25px;
+	height: 25px;
+	opacity: 0.3;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.task-manage-button:hover{
+	opacity: 1;
+	font-size: 26px;
+}
+
+.add-new-item-button{
+	color: blue;
+	position: absolute;
+	right:60px;
+	top: 0px;
+}
+
+.delete-task-button{
+	color: red;
+	position: absolute;
+	right: 20px;
+	top: 0px;
+}
+
+
+#list-container{
+	margin-left: 50px;
+	margin-top: 20px;
+}
+
+.task-item-checkbox-wrapper{
+	width: 400px;
+}
+
+.unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.checked {
+	text-decoration: line-through;
+}
+
+.item-manage-button{
+	color: grey;
+	position: absolute;
+	right: 25px;
+	top: 0px;
+	opacity: 0.4;
+}
+
+.item-manage-button:hover{
+	opacity: 1;
+}
